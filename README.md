@@ -4,14 +4,14 @@
 
 ## Content:
 
-  * [What is IaC and Terraform?](concepts.md#what-is-infrastructure-as-code-iac-and-terraform)
-  * [Core concepts](concepts.md#core-concepts)
-  * [Terraform Code Snippets](concepts.md#terraform-code-snippets)
-  * [Terraform in 15 minutes](concepts.md#terraform-in-15-minutes)
-  * [Useful links](concepts.md#useful-links)
-  * [Check yourself](concepts.md#check-yourself)
-  * [Terraform best practices](concepts.md#terraform-best-practices)
-  * [Certification and Trainings](concepts.md#certification-and-trainings)
+  * [What is IaC and Terraform?](README.md#what-is-infrastructure-as-code-iac-and-terraform)
+  * [Core concepts](README.md#core-concepts)
+  * [Terraform Code Snippets](README.md#terraform-code-snippets)
+  * [Terraform in 15 minutes](README.md#terraform-in-15-minutes)
+  * [Useful links](README.md#useful-links)
+  * [Check yourself](README.md#check-yourself)
+  * [Terraform best practices](README.md#terraform-best-practices)
+  * [Certification and Trainings](README.md#certification-and-trainings)
 
 <br><br>
 
