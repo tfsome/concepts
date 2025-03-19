@@ -170,7 +170,14 @@ For a brief but still substantial overall explanation of what Terraform is pleas
 
 ## Check yourself
 
-Try to answer these questions using the knowledge you've just gained. Imagine you have provisioned a configuration with an EC2 instance in AWS using `terraform apply`, so you have a) your configuration files, b) local Terraform state with said EC2 instance already in it and c) actual provisioned working resources in AWS.
+
+ Imagine you have provisioned a configuration with an EC2 instance in AWS using `terraform apply`, so you have:
+</br> a) your configuration files
+</br> b) local Terraform state with said EC2 instance already in it
+</br> c) actual provisioned working resources in AWS</br>
+
+Try to answer these questions using the knowledge you've just gained.
+
 
 1. What will happen to a), b) and c) after you delete a resource (an EC2 instance for example) **from its configuration file** and use `terraform apply`?
 2. What will happen after you delete the same resource **in AWS** and use `terraform apply`?
@@ -187,7 +194,7 @@ And some additional questions to think about:
 5. What will happen if you import existing resource with the following command: `terraform import aws_s3_bucket.my_super_storage {bucket-name}`? Do you need to do anything else to manage this resource?
 6. You've created IAM user and credentials using `aws_iam_access_key` resource. After some time you'd like to import that user to another state and find that according to [documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_access_key) secret cannot be imported. What should you do then?
 
-If you're certain you have answered all (or most) of them correctly, great job! You're most definitely ready for the main part of this lab.
+If you're certain you have answered all (or most) of them correctly, great job!
 
 
 ## Terraform best practices
